@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300&family=Space+Mono:ital@0;1&display=swap');
+
 body{
     box-sizing: border-box;
     color: #FAF1E2;
@@ -12,10 +13,12 @@ body{
     background-color: #282725;
     border-radius: 10px;
 }
+
 .header{
     display: flex;
     justify-content: flex-start;
 }
+
 .img{
     margin: 10px;
     width:  296px;
@@ -24,9 +27,11 @@ body{
     background-size: contain;
     border-radius: 10px;
 }
+
 .title{
     margin-left: 10px;
 }
+
 h1{
     font: 600 44px 'Open Sans', serif;
 }
@@ -38,6 +43,7 @@ h2{
 h3{
     font: italic 600 18px 'Open Sans', serif;
 }
+
 p{
     font: normal 300 16px 'Open Sans', serif;
 }
@@ -51,10 +57,12 @@ hr{
     border: 1px dashed rgba(158, 158, 158, 0.2);
 
 }
+
 a{
     text-decoration: none;
     color: #FAF1E2;
 }
+
 a:hover{
     transition: 0.2s;
 }
@@ -122,16 +130,20 @@ pre{
     display: flex;
     justify-content: flex-start;
 }
+
 .education_link{
     display: flex;
     flex-direction: column;
 }
+
 .education_link li{
     padding: 5px 10px;
 }
+
 .education_link li a{
     font-weight: 600;
 }
+
 .education_link li a:hover{
     text-decoration: underline;
 }
@@ -141,11 +153,13 @@ pre{
     display: block;
     padding: 5px 10px;
 }
+
 .social_link li:hover,
 .code_link li:hover{
     padding-bottom: 4px;
     border-bottom: 1px solid #FAF1E2;
 }
+
 footer{
     padding: 15px 0;
     justify-content: space-around;
@@ -157,6 +171,7 @@ footer ul{
     justify-content: space-around;
     padding: 0;
 }
+
 footer ul li{
     display: block;
     font: normal 300 14px 'Open Sans', serif;
@@ -166,9 +181,11 @@ mark{
     background-color: transparent;
     color: #707070;
 }
+
 footer ul li a img{
     height: 30px;
 }
+
 .rss_img{
     width: 60px;
     height: 22px;
