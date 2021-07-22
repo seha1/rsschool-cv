@@ -1,2 +1,3 @@
 # rsschool-cv
-rsschool
+
+https://seha1.github.io/rsschool-cv/
